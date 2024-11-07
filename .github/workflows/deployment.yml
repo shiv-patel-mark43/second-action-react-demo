@@ -4,6 +4,7 @@ on:
     branches:
       - "main"
       - "releases/**"
+  workflow-dispatch: {}
 jobs:
   test:
     runs-on: ubuntu-latest
